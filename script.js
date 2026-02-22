@@ -7,7 +7,7 @@
       const color = document.getElementById("colour_id").value;
 
       // Make all blocks transparent first
-      const allBlocks = document.querySelectorAll(".grid-item");
+      const allBlocks = document.querySelectorAll("#grid-item");
       allBlocks.forEach(block => {
         block.style.backgroundColor = "transparent";
       });
@@ -20,7 +20,7 @@
     });
 
     resetBtn.addEventListener("click", function () {
-      const allBlocks = document.querySelectorAll(".grid-item");
+      const allBlocks = document.querySelectorAll("#grid-item");
       allBlocks.forEach(block => {
         block.style.backgroundColor = "transparent";
       });
